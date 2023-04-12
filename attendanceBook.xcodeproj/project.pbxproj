@@ -19,6 +19,7 @@
 		7543E17F29E137D20034C14C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7543E17E29E137D20034C14C /* SnapKit */; };
 		7543E18729E153D10034C14C /* FirstJoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543E18629E153D10034C14C /* FirstJoinView.swift */; };
 		7543E18929E153DD0034C14C /* LoginNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543E18829E153DD0034C14C /* LoginNavigationView.swift */; };
+		7543E18C29E6F7C50034C14C /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543E18B29E6F7C50034C14C /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		7543E17029E137230034C14C /* attendanceBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = attendanceBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7543E18629E153D10034C14C /* FirstJoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstJoinView.swift; sourceTree = "<group>"; };
 		7543E18829E153DD0034C14C /* LoginNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationView.swift; sourceTree = "<group>"; };
+		7543E18B29E6F7C50034C14C /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				7543E15329E137210034C14C /* Main.storyboard */,
 				7543E15829E137230034C14C /* LaunchScreen.storyboard */,
 				7543E15129E137210034C14C /* ViewController.swift */,
+				7543E18B29E6F7C50034C14C /* CustomTabBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				7543E18729E153D10034C14C /* FirstJoinView.swift in Sources */,
 				7543E14E29E137210034C14C /* AppDelegate.swift in Sources */,
 				7543E15029E137210034C14C /* SceneDelegate.swift in Sources */,
+				7543E18C29E6F7C50034C14C /* CustomTabBarView.swift in Sources */,
 				7543E18929E153DD0034C14C /* LoginNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -33,7 +33,8 @@ class FirstJoinView: UIViewController{
     }()
     var nextBtn: UIButton = {
         let btn = UIButton()
-    }
+        return btn
+    }()
     override func viewDidLoad(){
         super.viewDidLoad()
         makeView()
@@ -60,6 +61,7 @@ class FirstJoinView: UIViewController{
             make.trailing.equalTo(backgroundImage.snp.trailing).offset(5)
         }
     }
+    
     func nextBtnEvent() {
 //        if nextBtn == .toggle {
 //            //명확하지 않지만 명시적으로 다음뷰를 호출하는 느낌으로 이렇게 적었습니다. 네비게이션으로 변경할거기 떄문에 지그음 대충 하겠습니다.

@@ -69,4 +69,5 @@ class LoginNavigationView: UIViewController {
             make.trailing.equalTo(backgroundLottie.snp.trailing).offset(5)
         }
     }
+    
 }
