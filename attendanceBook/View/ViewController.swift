@@ -17,8 +17,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
-    
+//    let tabBarView = CustomTabBar(coder: tabitem[.memberTab, .groupTab, .settingTab])
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
